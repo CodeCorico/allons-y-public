@@ -27,16 +27,6 @@ module.exports = ['$server', function($server) {
           error: 'File not found'
         });
     }
-
-    var log = {
-      req: req,
-      res: res,
-      _debugFile: __filename
-    };
-
-    if (sendFile) {
-      log.sendFile = sendFile;
-    }
   }
 
   $server.use('/favicon.ico', function(req, res) {

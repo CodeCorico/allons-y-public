@@ -1,8 +1,8 @@
 {
   "env": [{
     "type": "confirm",
-    "name": "PUBLIC",
-    "message": "Enable Express Public:"
+    "name": "PUBLIC_ENABLED",
+    "message": "Enable Express Public folder:"
   }, {
     "type": "confirm",
     "name": "PUBLIC_MINIFIED",

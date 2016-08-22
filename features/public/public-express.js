@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = ['$server', function($server) {
-  if (process.env.PUBLIC && process.env.PUBLIC == 'false') {
+  if (process.env.PUBLIC_ENABLED && process.env.PUBLIC_ENABLED == 'false') {
     return;
   }
 

@@ -1,0 +1,13 @@
+{
+  "env": [{
+    "type": "confirm",
+    "name": "PUBLIC_ENABLED",
+    "message": "Enable Express Public folder:",
+    "when": "EXPRESS=true"
+  }, {
+    "type": "confirm",
+    "name": "PUBLIC_MINIFIED",
+    "message": "Minify the assets files (js/css):",
+    "when": ["EXPRESS=true", "PUBLIC_ENABLED=true"]
+  }]
+}

@@ -7,7 +7,7 @@
   }, {
     "type": "confirm",
     "name": "PUBLIC_MINIFIED",
-    "message": "Minify the assets files (js/css):",
+    "message": "Use the minified the assets files (js/css):",
     "when": ["EXPRESS=true", "PUBLIC_ENABLED=true"]
   }]
 }

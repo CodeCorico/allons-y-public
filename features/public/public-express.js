@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = ['$server', function($server) {
+module.exports = function($server) {
   if (process.env.PUBLIC_ENABLED && process.env.PUBLIC_ENABLED == 'false') {
     return;
   }
@@ -47,4 +47,4 @@ module.exports = ['$server', function($server) {
 
     _sendFile(req, res, filename);
   });
-}];
+};

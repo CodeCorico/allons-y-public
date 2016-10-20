@@ -1,20 +1,22 @@
 {
   "name": "allons-y-public",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Distribute /public/* urls.",
+  "license": "MIT",
+  "homepage": "http://allons-y.io",
+  "author": "CodeCorico <hello@codecorico.com>",
+  "bugs": "https://github.com/CodeCorico/allons-y-public/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/CodeCorico/allons-y-public.git"
   },
-  "author": "CodeCorico <hello@codecorico.com>",
-  "bugs": {
-    "url": "https://github.com/CodeCorico/allons-y-public/issues"
-  },
-  "homepage": "https://github.com/CodeCorico/allons-y-public",
   "engines": {
     "node": ">=4.1",
     "npm": ">=3.2"
   },
-  "license": "MIT"
+  "dependencies": {
+    "allons-y-dotenv": "^1.0.0",
+    "allons-y-express": "^1.0.0",
+    "allons-y-gulp": "^1.0.0"
+  }
 }

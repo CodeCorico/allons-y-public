@@ -14,9 +14,7 @@
     "node": ">=4.1",
     "npm": ">=3.2"
   },
-  "dependencies": {
-    "allons-y-dotenv": "^1.0.0",
-    "allons-y-express": "^1.0.0",
-    "allons-y-gulp": "^1.0.0"
+  "devDependencies": {
+    "allons-y-dev-chore": "^1.0.0"
   }
 }
